@@ -1,7 +1,7 @@
 package piano
 
 import (
-	"common"
+	"./common"
 )
 
 func main() {
