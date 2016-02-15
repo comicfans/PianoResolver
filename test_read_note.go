@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-	reader := strings.NewReader("1 2 3 5.5 2.5 (2.5 2.5) 1.5")
+	reader := strings.NewReader("-1 --2 3 5.5 2.5 (2.5 2.5) +1.5 ")
 
-	common.ReadNotes(reader)
+	common.ReadNotes(reader, common.Parse5)
 
 }
